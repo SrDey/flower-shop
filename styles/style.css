@@ -1,0 +1,65 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+/* banner */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  background-color: #E554731A;
+
+}
+
+.banner {
+  display: flex;
+  padding: 50px 110px 0px 110px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.banner-content {
+  /* padding: 50px 240px 0px 240px; */
+  align-items: center;
+}
+
+.profile-pic {
+  width: 635px;
+  height: 800px;
+}
+
+.btn {
+  padding: 20px 43px;
+  border: none;
+  border-radius: 5px;
+  background: #E55473;
+  color: white;
+  font-size: 20px;
+  margin-top: 32px;
+}
+
+.small-para {
+  margin-top: 32px;
+  font-size: 18px;
+  color: #272727;
+}
+.title{
+  font-size: 80px;
+}
+
+.btn:hover{
+  background-color: antiquewhite;
+  color: #E55473;
+}
+/* banner end */
+/* flowers */
+.flowers{
+  display: flex;
+  margin: 128px 70px 50px 50px;
+ 
+}
+.flowers-items{
+  align-items: center;
+}
