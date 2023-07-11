@@ -10,7 +10,6 @@ body {
 
 .header {
   background-color: #E554731A;
-
 }
 
 .banner {
@@ -18,18 +17,15 @@ body {
   padding: 50px 110px 0px 110px;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .banner-content {
-  /* padding: 50px 240px 0px 240px; */
   align-items: center;
 }
 
 .profile-pic {
   width: 635px;
   height: 800px;
-
 }
 
 .btn {
@@ -60,31 +56,23 @@ body {
 }
 
 /* banner end */
-/* flowers */
-/* .flowers{
-  display: flex;
-  margin: 128px 70px 50px 50px; 
-}
-  */
+
 
 
 .sub-title {
   margin-top: 50px;
   text-align: center;
+  color: #272727;
+  font-size: 40px;
 }
 
 .small-para {
   text-align: center;
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
 }
 
-/* .flowers-items{
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  border-radius: 300px 300px 0px 0px;
-  margin-left: 30px;
- 
-} */
+
 .flowers {
   display: flex;
   justify-content: center;
@@ -141,6 +129,7 @@ body {
   justify-content: space-between;
   margin-right: 20px;
 
+
 }
 
 .rec {
@@ -157,7 +146,7 @@ body {
   background-repeat: no-repeat;
   width: 80%;
   margin: auto;
-
+  padding: 100px 100px 100px 100px;
 
 }
 
@@ -191,30 +180,37 @@ input {
   margin-left: 30%;
 
 }
+
 /* footer */
-footer{
+footer {
   background-color: #111010;
- margin-top: 50px
- padding: top 50px;
+  padding: 100px 600px 100px 600px;
+  align-items: center;
 }
-.f-title{
-  color: #E55473;
- 
-  font-size: 48px;
-  
+
+.f-title {
+  color: #ee4c6ffb;
+  font-size: 40px;
   font-weight: 800;
-  margin-top: 40px ;
-  
+
+  text-align: center;
 }
-.small-para-f{
-color: #FFF;
+
+.small-para-f {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.90);
+  text-align: center;
+  text-align: center;
 }
-small{
-  color: aliceblue;
+
+small {
+  color: rgba(255, 255, 255, 0.40);
+  text-align: center;
+  margin-top: 32px;
 }
-.ff{
+
+.ff {
   justify-content: center;
   align-items: center;
   margin-top: 50px
- padding: top 50px;
 }
