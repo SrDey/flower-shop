@@ -2,6 +2,7 @@
   margin: 0%;
   padding: 0%;
 }
+
 /* banner */
 body {
   font-family: 'Lato', sans-serif;
@@ -17,7 +18,7 @@ body {
   padding: 50px 110px 0px 110px;
   justify-content: space-between;
   align-items: center;
-  
+
 }
 
 .banner-content {
@@ -28,7 +29,7 @@ body {
 .profile-pic {
   width: 635px;
   height: 800px;
-  
+
 }
 
 .btn {
@@ -39,21 +40,25 @@ body {
   color: white;
   font-size: 20px;
   margin-top: 32px;
+  align-items: center;
 }
 
 .small-para {
   margin-top: 32px;
   font-size: 18px;
   color: #272727;
+  margin-bottom: 30px;
 }
-.title{
+
+.title {
   font-size: 80px;
 }
 
-.btn:hover{
-  background-color: antiquewhite;
+.btn:hover {
+  background-color: rgb(255, 255, 255);
   color: #E55473;
 }
+
 /* banner end */
 /* flowers */
 /* .flowers{
@@ -63,13 +68,15 @@ body {
   */
 
 
-.sub-title{
+.sub-title {
   margin-top: 50px;
   text-align: center;
 }
-.small-para{
+
+.small-para {
   text-align: center;
 }
+
 /* .flowers-items{
   text-align: center;
   display: flex;
@@ -81,7 +88,7 @@ body {
 .flowers {
   display: flex;
   justify-content: center;
-  
+
 }
 
 .image-container {
@@ -93,26 +100,121 @@ body {
   background-color: #e5547371;
   border-radius: 300px 300px 0px 0px;
 
+}
 
 .caption {
+  display: flex;
+  margin-bottom: 30px;
+
+}
+
+.caption1 {
   margin-top: 5px;
   justify-content: center;
   display: flex;
-
+  margin-left: 381px;
   align-items: center;
 }
-.img1{
+
+.img1 {
   background-color: rgba(209, 194, 54, 0.473);
- 
+
 }
-}
-.img2{
+
+
+.img2 {
   background-color: rgba(39, 245, 245, 0.26);
 }
-.img3{
+
+.img3 {
   background-color: rgba(165, 42, 42, 0.377);
 }
-.i{
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+
+/* new section */
+.section1 {
+  background-color: #E554731A;
+  text-align: center;
+}
+
+/* insta section */
+.rectangle {
+  justify-content: space-between;
+  margin-right: 20px;
+
+}
+
+.rec {
+  /* justify-content: space-between; */
+  margin-right: 30px;
+}
+
+/* input section */
+.input-item {
+
+  background-image: url('../img/Rectangle\ 9.png');
+  align-items: center;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  width: 80%;
+  margin: auto;
+
+
+}
+
+input {
+  border: #272727;
+  width: 700px;
+  height: 64px;
+  border-radius: 8px;
+  background: #FFF;
+
+}
+
+.mail {
+
+  display: flex;
+  align-items: center;
+}
+
+.title-3 {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+  font-weight: 800;
+  justify-content: center;
+
+}
+
+.inp {
+  margin-right: 30px;
+  margin-left: 30%;
+
+}
+/* footer */
+footer{
+  background-color: #111010;
+ margin-top: 50px
+ padding: top 50px;
+}
+.f-title{
+  color: #E55473;
+ 
+  font-size: 48px;
+  
+  font-weight: 800;
+  margin-top: 40px ;
+  
+}
+.small-para-f{
+color: #FFF;
+}
+small{
+  color: aliceblue;
+}
+.ff{
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px
+ padding: top 50px;
 }
