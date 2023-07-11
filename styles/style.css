@@ -100,12 +100,30 @@ body {
   margin-top: 5px;
   justify-content: center;
   display: flex;
-  margin-left: 381px;
+  margin-left: 430px;
   align-items: center;
 }
 
+.caption2 {
+  margin-top: 5px;
+  justify-content: center;
+  display: flex;
+  margin-left: 470px;
+  align-items: center;
+}
+
+.caption3 {
+  margin-top: 5px;
+  justify-content: center;
+  display: flex;
+  margin-left: 500px;
+  align-items: center;
+}
+
+
 .img1 {
   background-color: rgba(209, 194, 54, 0.473);
+
 
 }
 
@@ -133,8 +151,23 @@ body {
 }
 
 .rec {
-  /* justify-content: space-between; */
   margin-right: 30px;
+}
+
+/* feedback section */
+
+
+.thin-title {
+  text-align: center;
+  margin-top: 60px;
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 38px;
+  font-weight: 400;
+
+}
+
+.f-btn {
+  justify-content: center;
 }
 
 /* input section */
@@ -145,7 +178,7 @@ body {
   justify-content: space-between;
   background-repeat: no-repeat;
   width: 80%;
-  margin: auto;
+  margin: 100px 100px 100px 280px;
   padding: 100px 100px 100px 100px;
 
 }
@@ -161,8 +194,9 @@ input {
 
 .mail {
 
-  display: flex;
+
   align-items: center;
+  padding-right: 300px;
 }
 
 .title-3 {
